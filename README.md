@@ -1,55 +1,36 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
-## 📌 Purpose of this Template
-
-This repository is the **starter** for your End Semester Project submission in GitHub Classroom. You can implement your solution and push your work in this repository. Please free to edit this README.md file as per your requirements.
-
-> **Scope (as per assignment brief):**
-> Give an introduction to your repository here: Eg. This repository contains a complete implementation for ...
-
----
-
-**Important Note:** 
-1. TAs will evaluate using the `.py` file only.
-2. All your reports, plots, visualizations, etc pertaining to your solution should be uploaded to this GitHub repository
+This Repo is my submission for the final end sem project for building a multi-class classifier on MNIST Data.
 
 ---
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+- REPORT.pdf (This is my report)
+- algorithms.py (This contains the implementations of all my algorithms)
+- main.py (This contains the code that imports the algorithms from algorithms.py and then trains and ensembles them)
 
 ---
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+- Python 3
+- Numpy
+- Pandas
 
 ---
 
 ## ▶️ Running the Code
 
-All experiments should be runnable from the command line **and** reproducible in the notebook.
+### A. Command-line 
 
-### A. Command-line (recommended for grading)
-
-* Mention the instructions to run you .py files.
-  
----
-
-## You can further add your own sections/titles along with corresponding contents here:
+- Ensure that the mnist train and validation csvs are in the same directory as file
+- Navigate to the directory where the file is present and run
+- python main.py (The code will train and validate the models and print the final accuracy and f1 score)
 
 ---
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
-
-
-## Best Practices:
-* Keep commits with meaningful messages.
-* Please do not write all code on your local machine and push everything to GitHub on the last day. The commits in GitHub should reflect how the code has evolved during the course of the assignment.
-* Collaborations and discussions with other students is strictly prohibited.
-* Code should be modularized and well-commented.
-
+**Madhav Arun Krishna, DA24B012**, IIT Madras (2025–26)
